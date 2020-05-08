@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7d9bc899-db1a-49f3-9df6-27c465bab854" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bcNOjCEIUnUqwSPwHnUiGjKZx8" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunManager" selected="TestNG.AccessingVehicleContract">
+    <configuration name="AccessingVehicleContract" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EU2TestNGProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.tests.homework.TestCaseVyTrack.EU4_94.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.homework.TestCaseVyTrack.EU4_94" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.homework.TestCaseVyTrack.EU4_94.AccessingVehicleContract" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="calisma.testcelilAbi" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EU2TestNGProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.tests.Calismalar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.Calismalar" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.Calismalar.calisma" />
+      <option name="METHOD_NAME" value="testcelilAbi" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.AccessingVehicleContract" />
+        <item itemvalue="TestNG.calisma.testcelilAbi" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7d9bc899-db1a-49f3-9df6-27c465bab854" name="Default Changelist" comment="" />
+      <created>1588927391113</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588927391113</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1323" height="187" key="GridCell.Tab.0.bottom" timestamp="1588928431273">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="187" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1588928431273" />
+    <state width="1323" height="187" key="GridCell.Tab.0.center" timestamp="1588928431273">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="187" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1588928431273" />
+    <state width="1323" height="187" key="GridCell.Tab.0.left" timestamp="1588928431273">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="187" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1588928431273" />
+    <state width="1323" height="187" key="GridCell.Tab.0.right" timestamp="1588928431273">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="187" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1588928431273" />
+    <state x="186" y="9" key="SettingsEditor" timestamp="1588927618267">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="186" y="9" key="SettingsEditor/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1588927618267" />
+  </component>
+</project>
