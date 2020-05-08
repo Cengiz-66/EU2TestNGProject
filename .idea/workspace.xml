@@ -1,11 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d9bc899-db1a-49f3-9df6-27c465bab854" name="Default Changelist" comment="" />
+    <list default="true" id="7d9bc899-db1a-49f3-9df6-27c465bab854" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/Calismalar/CalismaVyTrack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/Calismalar/CalismaVyTrack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/Calismalar/CalismaVyTrack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/Calismalar/CalismaVyTrack.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -15,15 +30,19 @@
     </option>
   </component>
   <component name="ProjectId" id="1bcNOjCEIUnUqwSPwHnUiGjKZx8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="TestNG.AccessingVehicleContract">
+  <component name="RunManager" selected="TestNG.CalismaVyTrack.test1_DragDrop">
     <configuration name="AccessingVehicleContract" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU2TestNGProject" />
       <extension name="coverage">
@@ -35,6 +54,24 @@
       <option name="PACKAGE_NAME" value="com.cybertek.tests.homework.TestCaseVyTrack.EU4_94" />
       <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.homework.TestCaseVyTrack.EU4_94.AccessingVehicleContract" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalismaVyTrack.test1_DragDrop" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EU2TestNGProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.tests.Calismalar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.Calismalar" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.Calismalar.CalismaVyTrack" />
+      <option name="METHOD_NAME" value="test1_DragDrop" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -59,8 +96,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="vytrack1.test1_DragDrop" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EU2TestNGProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.tests.Calismalar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.Calismalar" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.Calismalar.vytrack1" />
+      <option name="METHOD_NAME" value="test1_DragDrop" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CalismaVyTrack.test1_DragDrop" />
+        <item itemvalue="TestNG.vytrack1.test1_DragDrop" />
         <item itemvalue="TestNG.AccessingVehicleContract" />
         <item itemvalue="TestNG.calisma.testcelilAbi" />
       </list>
@@ -80,25 +137,33 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="187" key="GridCell.Tab.0.bottom" timestamp="1588928431273">
+    <state width="1323" height="228" key="GridCell.Tab.0.bottom" timestamp="1588944715677">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="187" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1588928431273" />
-    <state width="1323" height="187" key="GridCell.Tab.0.center" timestamp="1588928431273">
+    <state width="1323" height="228" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1588944715677" />
+    <state width="1323" height="228" key="GridCell.Tab.0.center" timestamp="1588944715677">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="187" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1588928431273" />
-    <state width="1323" height="187" key="GridCell.Tab.0.left" timestamp="1588928431273">
+    <state width="1323" height="228" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1588944715677" />
+    <state width="1323" height="228" key="GridCell.Tab.0.left" timestamp="1588944715677">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="187" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1588928431273" />
-    <state width="1323" height="187" key="GridCell.Tab.0.right" timestamp="1588928431273">
+    <state width="1323" height="228" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1588944715677" />
+    <state width="1323" height="228" key="GridCell.Tab.0.right" timestamp="1588944715677">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="187" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1588928431273" />
+    <state width="1323" height="228" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1588944715677" />
     <state x="186" y="9" key="SettingsEditor" timestamp="1588927618267">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="186" y="9" key="SettingsEditor/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1588927618267" />
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1588944831167">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1588944831167" />
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1588937724212">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1588937724212" />
   </component>
 </project>
