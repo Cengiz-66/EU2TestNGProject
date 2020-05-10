@@ -11,11 +11,13 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import java.util.List;
+import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
 
 public class WebTablesExample {
 
     WebDriver driver;
+
 
     @BeforeMethod
     public void setUpMethod(){
@@ -104,8 +106,6 @@ public class WebTablesExample {
     public void getASingleCellByIndex(){
         WebElement singleCell = driver.findElement(By.xpath("//table[@id='table1']/tbody/tr[4]/td[5]"));
         System.out.println(singleCell.getText());
-
-
     }
 
     @Test
@@ -132,10 +132,15 @@ public class WebTablesExample {
 
         }
 
-        //create a method that accepts row and col number, and returns the cell as a webelement
+    }
 
+    @Test
+    public void getCellInRelationToAnotherCellInSameRow () {
 
-
+        String firstName = "John";
+        String xpath = "//table[@id='table1']//td[.='"+firstName+"']/../td[3]";
+        WebElement email = driver.findElement(By.xpath(xpath));
+        System.out.println(email.getText());
     }
 
     private int getNumberOfColumns() {

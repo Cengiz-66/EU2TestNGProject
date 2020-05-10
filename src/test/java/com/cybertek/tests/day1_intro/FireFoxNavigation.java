@@ -5,7 +5,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class FireFoxNavigation {
     public static void main(String[] args) {
-        System.setProperty("webdriver.gecko.driver","D:\\aa\\drivers\\geckodriver.exe");
+      //  System.setProperty("webdriver.gecko.driver","D:\\aa\\drivers\\geckodriver.exe");
+        System.setProperty("webdriver.gecko.driver","C:\\Program Files\\Mozilla Firefox\\browser\\geckodriver.exe");
 
         WebDriver driver=new FirefoxDriver();
 
