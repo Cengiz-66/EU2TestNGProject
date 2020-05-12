@@ -1,0 +1,6 @@
+.idea/
+target/
+configuration.properties
+EU2TestNGProject.iml
+pom.xml
+test/resources/
