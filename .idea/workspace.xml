@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d9bc899-db1a-49f3-9df6-27c465bab854" name="Default Changelist" comment="" />
+    <list default="true" id="7d9bc899-db1a-49f3-9df6-27c465bab854" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day14_properties_driver_tests/PropertiesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day14_properties_driver_tests/PropertiesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testfile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testfile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day14_properties_driver_tests/PropertiesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day14_properties_driver_tests/PropertiesTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +48,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="TestNG.WebTablesExample.getCellInRelationToAnotherCellInSameRow">
+  <component name="RunManager" selected="TestNG.CalismaNextBase1.test">
     <configuration name="FireFoxNavigation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day1_intro.FireFoxNavigation" />
       <module name="EU2TestNGProject" />
@@ -57,17 +62,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AccessingVehicleContract" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CalismaNextBase1.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU2TestNGProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.homework.TestCaseVyTrack.EU4_94.*" />
+          <option name="PATTERN" value="com.cybertek.tests.Calismalar.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.homework.TestCaseVyTrack.EU4_94" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.homework.TestCaseVyTrack.EU4_94.AccessingVehicleContract" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.Calismalar" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.Calismalar.CalismaNextBase1" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -130,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.WebTablesExample.getCellInRelationToAnotherCellInSameRow" />
+        <item itemvalue="TestNG.CalismaNextBase1.test" />
         <item itemvalue="TestNG.PropertiesTest.test2" />
+        <item itemvalue="TestNG.WebTablesExample.getCellInRelationToAnotherCellInSameRow" />
         <item itemvalue="Application.FireFoxNavigation" />
         <item itemvalue="TestNG.PropertiesTest.test1" />
-        <item itemvalue="TestNG.AccessingVehicleContract" />
       </list>
     </recent_temporary>
   </component>
@@ -184,38 +190,46 @@
       <option name="project" value="LOCAL" />
       <updated>1589132249175</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="LastUpdate">
+      <created>1589132311109</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1589132311109</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="LastUpdate" />
     <option name="LAST_COMMIT_MESSAGE" value="LastUpdate" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="350" y="0" key="CommitChangelistDialog2" timestamp="1589132247977">
+    <state x="350" y="0" key="CommitChangelistDialog2" timestamp="1589132309916">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="350" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1589132247977" />
+    <state x="350" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1589132309916" />
     <state x="129" y="55" key="DiffContextDialog" timestamp="1589131983751">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="129" y="55" key="DiffContextDialog/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1589131983751" />
-    <state width="1323" height="195" key="GridCell.Tab.0.bottom" timestamp="1589131747842">
+    <state width="1323" height="196" key="GridCell.Tab.0.bottom" timestamp="1589291500461">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="195" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1589131747842" />
-    <state width="1323" height="195" key="GridCell.Tab.0.center" timestamp="1589131747841">
+    <state width="1323" height="196" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1589291500461" />
+    <state width="1323" height="196" key="GridCell.Tab.0.center" timestamp="1589291500461">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="195" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1589131747841" />
-    <state width="1323" height="195" key="GridCell.Tab.0.left" timestamp="1589131747841">
+    <state width="1323" height="196" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1589291500461" />
+    <state width="1323" height="196" key="GridCell.Tab.0.left" timestamp="1589291500460">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="195" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1589131747841" />
-    <state width="1323" height="195" key="GridCell.Tab.0.right" timestamp="1589131747841">
+    <state width="1323" height="196" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1589291500460" />
+    <state width="1323" height="196" key="GridCell.Tab.0.right" timestamp="1589291500461">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="195" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1589131747841" />
+    <state width="1323" height="196" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1589291500461" />
     <state x="186" y="9" key="SettingsEditor" timestamp="1588927618267">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -224,9 +238,13 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1588944953976" />
-    <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1589113001181">
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1589280279452">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1589113001181" />
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1589280279452" />
+    <state x="413" y="126" width="540" height="482" key="extract.method.dialog" timestamp="1589287314538">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="126" width="540" height="482" key="extract.method.dialog/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1589287314538" />
   </component>
 </project>

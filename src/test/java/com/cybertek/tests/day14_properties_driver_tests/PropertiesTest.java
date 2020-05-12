@@ -1,7 +1,7 @@
 package com.cybertek.tests.day14_properties_driver_tests;
+
 import com.cybertek.utilities.ConfigurationReader;
 import com.cybertek.utilities.Driver;
-import com.cybertek.utilities.WebDriverFactory;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
@@ -17,4 +17,10 @@ public class PropertiesTest {
         System.out.println(ConfigurationReader.get("browser"));
     }
 
+    @Test
+    public void test2() {
+
+       driver= Driver.get();
+       driver.get(ConfigurationReader.get("url"));
+    }
 }
