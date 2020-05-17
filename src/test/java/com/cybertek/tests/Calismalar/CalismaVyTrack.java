@@ -37,8 +37,8 @@ public class CalismaVyTrack {
 
     @AfterMethod
     public void tearDown() throws InterruptedException {
-        Thread.sleep(2000);
-        driver.quit();
+       // Thread.sleep(2000);
+       Driver.closeDriver();
     }
 
     @Test
@@ -49,7 +49,7 @@ public class CalismaVyTrack {
 
         //go to fleet and vehicles and click
         WebElement fleet = driver.findElement(By.cssSelector(".title.title-level-1"));
-        actions.moveToElement(fleet).perform();
+        actions.moveToElement(fleet).pause(1).perform();
         WebElement vehicles = driver.findElement(By.xpath("(//span[contains(text(),'Vehicles')])[1]"));
         wait.until(ExpectedConditions.visibilityOf(vehicles));
         actions.moveToElement(vehicles).click().perform();
@@ -79,20 +79,25 @@ public class CalismaVyTrack {
     }
 
     @Test
-    public void test2() {
+    public void test2() throws InterruptedException {
+        //go to https://qa1.vytrack.com/user/login page and login
+        //We can use ConfigurationReader and new Driver Utulities***
         WebElement loaderFrame = driver.findElement(By.cssSelector("[class=\"loader-frame\"]"));
         wait.until(ExpectedConditions.invisibilityOf(loaderFrame));
-
+        //click the Fleet
         WebElement fleet = driver.findElement(By.cssSelector(".title.title-level-1"));
         actions.moveToElement(fleet).perform();
+        //click the Vehicle Costs
         WebElement costs = driver.findElement(By.xpath("(//span[@class=\"title title-level-2\"])[3]"));
         wait.until(ExpectedConditions.visibilityOf(costs));
         actions.moveToElement(costs).click().perform();
         loaderFrame=driver.findElement(By.xpath("(//*[@class=\"loader-frame\"])[2]"));
         wait.until(ExpectedConditions.invisibilityOf(loaderFrame));
+        //click create Vehicle costs (right upper side)
         WebElement createCosts = driver.findElement(By.cssSelector("[title=\"Create Vehicle Costs\"]"));
         actions.moveToElement(createCosts).click().perform();
         wait.until(ExpectedConditions.invisibilityOf(loaderFrame));
+        //click Type and select Tax Roll
         WebElement clickType = driver.findElement(By.cssSelector("[class=\"select2-chosen\"]"));
         wait.until(ExpectedConditions.elementToBeClickable(clickType));
         actions.moveToElement(clickType).click().perform();
@@ -104,28 +109,51 @@ public class CalismaVyTrack {
                 break;
             }
         }
-
+        //click total price and send a price
         driver.findElement(By.cssSelector("[data-name=\"field__total-price\"]")).sendKeys("100");
+        //click date and select Today
         WebElement date = driver.findElement(By.cssSelector("[placeholder=\"Choose a date\"]"));
         actions.moveToElement(date).click().perform();
         driver.findElement(By.cssSelector("[data-handler=\"today\"]")).click();
+        //click Cost Description and write somthing
         driver.findElement(By.cssSelector("[data-name=\"field__cost-descriptions\"]")).sendKeys("Tax Roll");
+        //click save and roll
         WebElement saveClose = driver.findElement(By.cssSelector("[type=\"submit\"]"));
         actions.moveToElement(saveClose).click().perform();
+        //click again Fleet and select Vehicle Costs
         actions.moveToElement(fleet).perform();
         wait.until(ExpectedConditions.visibilityOf(costs));
         actions.moveToElement(costs).click().perform();
-        System.out.print(driver.findElement(By.xpath("(//tbody)[1]/tr[1]/td[1]")).getText());
-        List<WebElement> elements = driver.findElements(By.xpath("(//tbody)[1]/tr/td[1]"));
-        for (int i = 1; i <=elements.size() ; i++) {
-            for (int j = 1; j <=2 ; j++) {
-                String path="(//tbody)[1]/tr["+i+"]/td["+j+"]";
-                WebElement cell=driver.findElement(By.xpath(path));
-                System.out.print(cell.getText()+"|");
-            }
-            System.out.println();
-        }
+        //click View Per Page and select 100
+        WebElement viewPerPage = driver.findElement(By.xpath("(//div[@class=\"btn-group\"])[3]/button"));
+        wait.until(ExpectedConditions.elementToBeClickable(viewPerPage));
+        actions.moveToElement(viewPerPage).click().perform();
+        WebElement s100=driver.findElement(By.xpath("(//*[@class=\"dropdown-item\"])[4]"));
+        String str=s100.getText();
+        int size=Integer.parseInt(str);
+        System.out.println("size = " + size);
+        wait.until(ExpectedConditions.visibilityOf(s100));
+        actions.moveToElement(s100).click().perform();
+        double price=0;
+        Thread.sleep(3000);
+        //get the all price from Vehicle costs and print them
+        //also parse all of them, calculate and print the total price
+      List<WebElement> elements = driver.findElements(By.xpath("(//tbody)[1]/tr/td[1]"));
 
+        for (int i = 1; i <=size ; i++) {
+
+                String path="(//tbody)[1]/tr["+i+"]/td["+2+"]";
+                WebElement cell=driver.findElement(By.xpath(path));
+                if(!cell.getText().isEmpty()) {
+                    String list = cell.getText().replace("$", "").replace(",","");
+                    if(Double.valueOf(list)>=0) {
+                        System.out.println(Double.valueOf(list));
+                        price = price + Double.valueOf(list);
+                    }
+                }
+
+        }
+        System.out.println("Total Price: "+price);
 
     }
 }

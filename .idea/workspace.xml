@@ -47,8 +47,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="TestNG.VehicleCostTablePrint.openFuelLogs">
-    <configuration name="CalismaNextBase1.test" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.CalismaVyTrack.test2">
+    <configuration name="CalismaVyTrack" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU2TestNGProject" />
       <extension name="coverage">
         <pattern>
@@ -57,9 +57,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.cybertek.tests.Calismalar" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.Calismalar.CalismaNextBase1" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.Calismalar.CalismaVyTrack" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -102,7 +101,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PropertiesTest.test2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU2TestNGProject" />
       <extension name="coverage">
         <pattern>
@@ -111,8 +110,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.cybertek.tests.day14_properties_driver_tests" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day14_properties_driver_tests.PropertiesTest" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day14_properties_driver_tests.LoginTest" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -120,17 +119,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VehicleCostTablePrint.openFuelLogs" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="StaleTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU2TestNGProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.Calismalar.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day15_staletest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.Calismalar" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.Calismalar.VehicleCostTablePrint" />
-      <option name="METHOD_NAME" value="openFuelLogs" />
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day15_staletest" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day15_staletest.StaleTest" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -140,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.VehicleCostTablePrint.openFuelLogs" />
         <item itemvalue="TestNG.CalismaVyTrack.test2" />
+        <item itemvalue="TestNG.StaleTest.test1" />
+        <item itemvalue="TestNG.LoginTest.test1" />
         <item itemvalue="TestNG.CalismaVyTrack.test1_DragDrop" />
-        <item itemvalue="TestNG.CalismaNextBase1.test" />
-        <item itemvalue="TestNG.PropertiesTest.test2" />
+        <item itemvalue="TestNG.CalismaVyTrack" />
       </list>
     </recent_temporary>
   </component>
@@ -240,22 +239,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="129" y="55" key="DiffContextDialog/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1589293581732" />
-    <state width="1323" height="286" key="GridCell.Tab.0.bottom" timestamp="1589367109498">
+    <state width="1323" height="2" key="GridCell.Tab.0.bottom" timestamp="1589707401651">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="286" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1589367109498" />
-    <state width="1323" height="286" key="GridCell.Tab.0.center" timestamp="1589367109498">
+    <state width="1323" height="2" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1589707401651" />
+    <state width="1323" height="2" key="GridCell.Tab.0.center" timestamp="1589707401651">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="286" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1589367109498" />
-    <state width="1323" height="286" key="GridCell.Tab.0.left" timestamp="1589367109498">
+    <state width="1323" height="2" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1589707401651" />
+    <state width="1323" height="2" key="GridCell.Tab.0.left" timestamp="1589707401651">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="286" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1589367109498" />
-    <state width="1323" height="286" key="GridCell.Tab.0.right" timestamp="1589367109498">
+    <state width="1323" height="2" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1589707401651" />
+    <state width="1323" height="2" key="GridCell.Tab.0.right" timestamp="1589707401651">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="286" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1589367109498" />
+    <state width="1323" height="2" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1589707401651" />
     <state x="186" y="9" key="SettingsEditor" timestamp="1588927618267">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -264,10 +263,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1589294060745" />
-    <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1589356394201">
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1589706665808">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1589356394201" />
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1589706665808" />
     <state x="413" y="126" width="540" height="482" key="extract.method.dialog" timestamp="1589287314538">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
