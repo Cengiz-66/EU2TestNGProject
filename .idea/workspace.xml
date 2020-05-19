@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d9bc899-db1a-49f3-9df6-27c465bab854" name="Default Changelist" comment="">
+    <list default="true" id="7d9bc899-db1a-49f3-9df6-27c465bab854" name="Default Changelist" comment="Update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/Calismalar/CalismaVyTrack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/Calismalar/CalismaVyTrack.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +46,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="TestNG.CalismaVyTrack.test2">
-    <configuration name="CalismaVyTrack" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cybertek.tests.Calismalar" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.RepeatOptionsTests.test2">
+    <configuration name="CalismaBasePage.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU2TestNGProject" />
       <extension name="coverage">
         <pattern>
@@ -55,25 +61,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.cybertek.tests.Calismalar" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.Calismalar.CalismaVyTrack" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalismaVyTrack.test1_DragDrop" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="EU2TestNGProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.Calismalar.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.Calismalar" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.Calismalar.CalismaVyTrack" />
-      <option name="METHOD_NAME" value="test1_DragDrop" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.Calismalar.CalismaBasePage" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -81,7 +70,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalismaVyTrack.test2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CalismaNextBase2.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU2TestNGProject" />
       <extension name="coverage">
         <pattern>
@@ -90,44 +79,62 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.cybertek.tests.Calismalar" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.Calismalar.CalismaVyTrack" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.Calismalar.CalismaNextBase2" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PageSubtitleTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EU2TestNGProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.tests.day16_pom.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day16_pom" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day16_pom.PageSubtitleTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RepeatOptionsTests.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EU2TestNGProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.tests.day16_pom.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day16_pom" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day16_pom.RepeatOptionsTests" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RepeatOptionsTests.test2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EU2TestNGProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.tests.day16_pom.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day16_pom" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day16_pom.RepeatOptionsTests" />
       <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="EU2TestNGProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day14_properties_driver_tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day14_properties_driver_tests" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day14_properties_driver_tests.LoginTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StaleTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="EU2TestNGProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day15_staletest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day15_staletest" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day15_staletest.StaleTest" />
-      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -137,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.CalismaVyTrack.test2" />
-        <item itemvalue="TestNG.StaleTest.test1" />
-        <item itemvalue="TestNG.LoginTest.test1" />
-        <item itemvalue="TestNG.CalismaVyTrack.test1_DragDrop" />
-        <item itemvalue="TestNG.CalismaVyTrack" />
+        <item itemvalue="TestNG.RepeatOptionsTests.test2" />
+        <item itemvalue="TestNG.RepeatOptionsTests.test" />
+        <item itemvalue="TestNG.PageSubtitleTest.test1" />
+        <item itemvalue="TestNG.CalismaNextBase2.test" />
+        <item itemvalue="TestNG.CalismaBasePage.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589294100628</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Update">
+      <created>1589727196466</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1589727196466</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -229,42 +243,50 @@
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="350" y="0" key="CommitChangelistDialog2" timestamp="1589294099472">
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1589880869211">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="350" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1589294099472" />
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1589880869211" />
+    <state x="413" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589883446416">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1589883446416" />
+    <state x="350" y="0" key="CommitChangelistDialog2" timestamp="1589727217638">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="350" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1589727217638" />
     <state x="129" y="55" key="DiffContextDialog" timestamp="1589293581732">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="129" y="55" key="DiffContextDialog/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1589293581732" />
-    <state width="1323" height="390" key="GridCell.Tab.0.bottom" timestamp="1589707805982">
+    <state width="1323" height="79" key="GridCell.Tab.0.bottom" timestamp="1589907778608">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="390" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1589707805982" />
-    <state width="1323" height="390" key="GridCell.Tab.0.center" timestamp="1589707805982">
+    <state width="1323" height="79" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1589907778608" />
+    <state width="1323" height="79" key="GridCell.Tab.0.center" timestamp="1589907778608">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="390" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1589707805982" />
-    <state width="1323" height="390" key="GridCell.Tab.0.left" timestamp="1589707805982">
+    <state width="1323" height="79" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1589907778608" />
+    <state width="1323" height="79" key="GridCell.Tab.0.left" timestamp="1589907778608">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="390" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1589707805982" />
-    <state width="1323" height="390" key="GridCell.Tab.0.right" timestamp="1589707805982">
+    <state width="1323" height="79" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1589907778608" />
+    <state width="1323" height="79" key="GridCell.Tab.0.right" timestamp="1589907778608">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="390" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1589707805982" />
+    <state width="1323" height="79" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1589907778608" />
     <state x="186" y="9" key="SettingsEditor" timestamp="1588927618267">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="186" y="9" key="SettingsEditor/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1588927618267" />
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1589294060745">
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1589727229009">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1589294060745" />
-    <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1589706665808">
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1589727229009" />
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1589817193075">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1589706665808" />
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1589817193075" />
     <state x="494" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589726620191">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -281,5 +303,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="65" y="0" key="new project wizard/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1589297694503" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1589881253426">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1589881253426" />
   </component>
 </project>
