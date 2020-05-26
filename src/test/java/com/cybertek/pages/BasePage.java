@@ -30,6 +30,16 @@ public abstract class BasePage  {
     @FindBy(linkText = "My User")
     public WebElement myUser;
 
+    //ben ekledim ********
+    @FindBy(css = "[class=\"btn-toolbar\"]")
+    public WebElement optionsSubtitle;
+    @FindBy(css = "input[type=\"number\"]")
+    public WebElement pageNumber;
+    @FindBy(xpath = "//div[@class=\"page-size pull-right form-horizontal\"]//button[@data-toggle=\"dropdown\"]")
+    public WebElement perPage;
+
+
+
     public BasePage() {
         PageFactory.initElements(Driver.get(), this);
     }
@@ -39,7 +49,7 @@ public abstract class BasePage  {
      * @return page name, for example: Dashboard
      */
     public String getPageSubTitle() {
-        //ant time we are verifying page name, or page subtitle, loader mask appears
+        //any time we are verifying page name, or page subtitle, loader mask appears
         waitUntilLoaderScreenDisappear();
 //        BrowserUtils.waitForStaleElement(pageSubTitle);
         return pageSubTitle.getText();

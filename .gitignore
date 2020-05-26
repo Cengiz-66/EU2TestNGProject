@@ -4,3 +4,4 @@ configuration.properties
 EU2TestNGProject.iml
 pom.xml
 test/resources/
+test-output/
