@@ -41,7 +41,7 @@ public class RepeatOptionsTests extends TestBase {
         calendarEventsPage.createCalendarEvent.click();
 
         CreateCalendarEventsPage createCalendarEventsPage = new CreateCalendarEventsPage();
-
+        BrowserUtils.waitFor(3);
         createCalendarEventsPage.repeat.click();
 
         Assert.assertTrue(createCalendarEventsPage.days.isSelected(),"Verify days rb is checked");
